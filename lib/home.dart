@@ -21,6 +21,7 @@ class _Home_pageState extends State<Home_page> {
             color: Colors.green[100],
             child: Column(
               children: [
+                Container(),
                 Container(
                   child: Column(
                     children: [
