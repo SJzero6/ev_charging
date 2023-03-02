@@ -30,8 +30,12 @@ class _Home_pageState extends State<Home_page> {
                             onHover: (value) => null,
                             onPressed: () {},
                             style: ElevatedButton.styleFrom(
-                                foregroundColor: Colors.blue[200],
-                                shape: CircleBorder()),
+                              // foregroundColor: Colors.blue[200],
+                              backgroundColor:
+                                  Color.fromARGB(255, 51, 150, 232),
+                              shape: CircleBorder(),
+                              minimumSize: Size(150, 85),
+                            ),
                             child: Image.asset('assets/up.png')),
                       ),
                       Row(
@@ -42,8 +46,12 @@ class _Home_pageState extends State<Home_page> {
                                 onHover: (value) => null,
                                 onPressed: () {},
                                 style: ElevatedButton.styleFrom(
-                                    foregroundColor: Colors.blue[200],
-                                    shape: CircleBorder()),
+                                  //   foregroundColor: Colors.blue[200],
+                                  backgroundColor:
+                                      Color.fromARGB(255, 51, 150, 232),
+                                  shape: CircleBorder(),
+                                  minimumSize: Size(150, 85),
+                                ),
                                 child: Image.asset('assets/left.png')),
                           ),
                           Container(
@@ -51,8 +59,12 @@ class _Home_pageState extends State<Home_page> {
                                 onHover: (value) => null,
                                 onPressed: () {},
                                 style: ElevatedButton.styleFrom(
-                                    foregroundColor: Colors.blue[200],
-                                    shape: CircleBorder()),
+                                  //    foregroundColor: Colors.blue[200],
+                                  backgroundColor:
+                                      Color.fromARGB(255, 51, 150, 232),
+                                  shape: CircleBorder(),
+                                  minimumSize: Size(150, 85),
+                                ),
                                 child: Image.asset('assets/right.png')),
                           ),
                         ],
@@ -60,10 +72,16 @@ class _Home_pageState extends State<Home_page> {
                       Container(
                         child: ElevatedButton(
                             onHover: (value) => null,
-                            onPressed: () {},
+                            onPressed: () {
+                              print('object');
+                            },
                             style: ElevatedButton.styleFrom(
-                                foregroundColor: Colors.blue[200],
-                                shape: CircleBorder()),
+                              // foregroundColor: Colors.blue[200],
+                              backgroundColor:
+                                  Color.fromARGB(255, 51, 150, 232),
+                              shape: CircleBorder(),
+                              minimumSize: Size(150, 85),
+                            ),
                             child: Image.asset('assets/down.png')),
                       ),
                     ],
